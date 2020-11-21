@@ -27,7 +27,7 @@
 
         <a href="/">Revenir à la page d'accueil</a>
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/apropos">A Propos</a></p>
+            <p>&copy; Copyright {{ date('Y') }}  </p>
         </footer>
     </body>
 </html>

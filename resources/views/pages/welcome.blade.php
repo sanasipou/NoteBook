@@ -30,7 +30,8 @@
 
 
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/">NoteBook</a></p>
+            <p>&copy; Copyright {{ date('Y') }} &middot;
+                <a href="/apropos">A propos</a></p>
         </footer>
     </body>
 </html>
