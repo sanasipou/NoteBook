@@ -2,6 +2,9 @@
 
 
 
+
+
+
 @section('content')
         <h1>Bienvenu chez nous dans note site NoteBook</h1>
 

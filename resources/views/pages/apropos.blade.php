@@ -1,5 +1,6 @@
 @extends('base')
 
+@section('title' , 'A Propos | NoteBook')
 
 
 @section('content')
