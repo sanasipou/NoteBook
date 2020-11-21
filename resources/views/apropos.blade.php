@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>A Propos</title>
+        <title>A Propos | NoteBook</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -22,13 +22,12 @@
     </head>
     <body >
         <h1>Bienvenu chez nous dans note site a propos NoteBook &hearts;</h1>
-    <p> NoteBook {{ date('d/m/Y') }}</p>
 
 
 
-
+        <a href="/">Revenir à la page d'accueil</a>
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/">NoteBook</a></p>
+            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/apropos">A Propos</a></p>
         </footer>
     </body>
 </html>
