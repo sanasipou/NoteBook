@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
 
         <!-- Styles -->
         <style>
@@ -20,19 +22,26 @@
             }
         </style>
     </head>
-    <body >
+    <body class="py-6 flex flex-col justify-between items-center min-h-screen">
 
-        @yield('content')
+
+            <main role="main" class="flex flex-col justify-between items-center">
+
+                @yield('content')
+
+            </main>
+
 
 
         <footer>
-            <p>&copy; Copyright {{ date('Y') }}  </p>
+            <p class="text-gray-400">&copy; Copyright {{ date('Y') }}
 
 
-            @if (!  Route::is('apropos'))
-            <a href="/apropos">A Propos</a>
+            @if (! Route::is('apropos'))
+            <a href="/apropos" class="text-indigo-500 hover:text-indigo-600 underline">A Propos</a>
             @endif
 
+            </p>
         </footer>
     </body>
 </html>
