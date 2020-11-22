@@ -6,7 +6,7 @@
 
 @section('content')
 
-
+<img src="images/photo2.jpg" alt="NoteBook Top tapi">
 <h1>Bienvenu chez nous dans note site a propos NoteBook &hearts;</h1>
 
 
