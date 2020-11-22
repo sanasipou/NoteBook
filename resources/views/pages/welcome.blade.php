@@ -10,4 +10,6 @@
 
     <p>NoteBook {{ date('d/m/Y') }}</p>
 
+
+
    @endsection
