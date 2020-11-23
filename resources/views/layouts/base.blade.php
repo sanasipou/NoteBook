@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', config('app.name'))</title>
+
+        <title>{{ page_title($title ?? null) }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -33,15 +34,8 @@
 
 
 
-        <footer>
-            <p class="text-gray-400">&copy; Copyright {{ date('Y') }}
+            @include('layouts/partials/_footer')
 
 
-            @if (! Route::is('apropos'))
-            <a href="/apropos" class="text-indigo-500 hover:text-indigo-600 underline">A Propos</a>
-            @endif
-
-            </p>
-        </footer>
     </body>
 </html>
