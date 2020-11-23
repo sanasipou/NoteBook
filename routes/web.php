@@ -13,16 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('pages/welcome');
 })->name('accuiel');
 
 
 Route::get('/apropos', function () {
     return view('pages/apropos');
-})->name('apropos');
+})->name('apropos'); */
 
 
+/* Route::get('/', fn() => view('pages/welcome'))->name('accuiel');
 
 
+Route::get('/apropos', fn() => view('pages/apropos'))->name('apropos'); */
 
+
+Route::view('/','pages/welcome')->name('accuiel');
+
+Route::view('/apropos','pages/apropos')->name('apropos');
